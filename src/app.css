@@ -1,0 +1,11 @@
+*{
+    list-style:none;
+}
+
+.container{
+    display: flex;
+}
+.others{
+    flex: 4;
+    background-color: rgb(220, 233, 255);
+}
