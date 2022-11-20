@@ -1,7 +1,11 @@
 .topbar-container{
+ position:fixed;
+ z-index: 1;
+ padding-top: 10px;
     width: 100%;
     height:50px;
     background-color:white;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .topbar-wrapper__container{
@@ -16,4 +20,51 @@
     font-weight: bold;
     font-size:30px;
     color:darkblue;
+}
+
+  
+.right__side-container{
+    display:flex;
+    align-items:center;
+    margin-right: 24px;
+    gap:10px;
+    justify-content:space-around;
+}
+
+.image__profile-container img,
+.theEarthIcon__container,
+.notification__container
+
+{
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    background-color:rgb(203, 210, 236);
+   
+}
+.notificationNumber{
+   margin-top:-28px;
+    background:rgb(246, 14, 14);
+    border-radius:30%;
+    font-size: 10px;
+    margin-left:16px;
+    width:10px;
+    height:10px;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-items: center;
+    padding: 1px;
+    
+    
+}
+.theEarthIcon__container{
+    display:flex;
+    align-items:center;
+    justify-items: center;
+
+}
+.language__icon,.notification__icon{
+    margin-left:4px;
 }

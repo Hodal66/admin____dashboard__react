@@ -4,6 +4,7 @@
     background-color:rgb(248, 248, 251);
     position:sticky;
     top:50px;
+    padding: 1rem 0.5rem;
  
 }
 .sidebarWrapper{
@@ -11,10 +12,11 @@
     color:#555;
 }
 .sidebarMenu{
-    margin: -10px 0px 10px 0px;
+    margin: -10px 0px -5px 0px;
 }
 .sidebarTitle{
     font-size: 13px;
+    padding:5px 0px;
     color: rgb(180, 176, 176);
 }
 .sidebarList{
