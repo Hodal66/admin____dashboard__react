@@ -1,0 +1,40 @@
+.userList__container{
+    flex: 4;
+    margin:20px;
+}
+.userList-Title{
+    padding:20px 0px;
+}
+.userListUser{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+.userImage{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.action__container{
+    display: flex;
+    gap: 10px;
+}
+.actionButton{
+    padding:3px 5px;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+}
+ .danger{
+    background-color: rgb(203, 151, 151);
+    color:red;
+}
+ .modify{
+    background-color:rgb(198, 198, 158);
+    color:yellow;
+}
+.viewRecord{
+    background-color:rgb(117, 222, 166);
+    color:green;
+}

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import React from "react";
 import "./sidebar.css";
 import LineStyleIcon from "@mui/icons-material/LineStyle";
@@ -12,6 +13,7 @@ import DynamicFeedOutlinedIcon from "@mui/icons-material/DynamicFeedOutlined";
 import MarkChatUnreadOutlinedIcon from "@mui/icons-material/MarkChatUnreadOutlined";
 import ManageHistoryOutlinedIcon from "@mui/icons-material/ManageHistoryOutlined";
 import NewReleasesIcon from "@mui/icons-material/NewReleases";
+import { Link } from "react-router-dom";
 function SideBar() {
   return (
     <div className="sidebar">
@@ -20,16 +22,22 @@ function SideBar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <li className="sideListItem  active">
-              <LineStyleIcon className="sidebarIcon" />
-              Home
+              <Link to="/">
+                <LineStyleIcon className="sidebarIcon" />
+                Home
+              </Link>
             </li>
             <li className="sideListItem ">
-              <TimelineIcon className="sidebarIcon" />
-              Analytics
+              <Link to="/analytics">
+                <TimelineIcon className="sidebarIcon" />
+                Analytics
+              </Link>
             </li>
             <li className="sideListItem ">
-              <TrendingUpIcon className="sidebarIcon" />
-              Sales
+              <Link to="/sales">
+                <TrendingUpIcon className="sidebarIcon" />
+                Sales
+              </Link>
             </li>
           </ul>
         </div>
@@ -37,20 +45,28 @@ function SideBar() {
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sideListItem ">
-              <ManageAccountsIcon className="sidebarIcon" />
-              User
+              <Link to="/users">
+                <ManageAccountsIcon className="sidebarIcon" />
+                User
+              </Link>
             </li>
             <li className="sideListItem ">
-              <ProductionQuantityLimitsIcon className="sidebarIcon" />
-              Products
+              <Link to="/products">
+                <ProductionQuantityLimitsIcon className="sidebarIcon" />
+                Products
+              </Link>
             </li>
             <li className="sideListItem ">
-              <PaidOutlinedIcon className="sidebarIcon" />
-              Transactions
+              <Link to="/transactions">
+                <PaidOutlinedIcon className="sidebarIcon" />
+                Transactions
+              </Link>
             </li>
             <li className="sideListItem ">
-              <BarChartOutlinedIcon className="sidebarIcon" />
-              Report
+              <Link to="/transactions">
+                <BarChartOutlinedIcon className="sidebarIcon" />
+                Transactions
+              </Link>
             </li>
           </ul>
         </div>
@@ -58,16 +74,22 @@ function SideBar() {
           <h3 className="sidebarTitle">Staff</h3>
           <ul className="sidebarList">
             <li className="sideListItem ">
-              <MailLockOutlinedIcon className="sidebarIcon" />
-              Mail
+              <Link to="/mail">
+                <MailLockOutlinedIcon className="sidebarIcon" />
+                Mail
+              </Link>
             </li>
             <li className="sideListItem ">
-              <DynamicFeedOutlinedIcon className="sidebarIcon" />
-              Feedback
+              <Link to="/feedback">
+                <DynamicFeedOutlinedIcon className="sidebarIcon" />
+                Feedback
+              </Link>
             </li>
             <li className="sideListItem ">
-              <MarkChatUnreadOutlinedIcon className="sidebarIcon" />
-              Messages
+              <Link to="/messages">
+                <MarkChatUnreadOutlinedIcon className="sidebarIcon" />
+                Messages
+              </Link>
             </li>
           </ul>
         </div>
