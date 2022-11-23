@@ -4,6 +4,7 @@ import "./app.css";
 import Home from "./page/Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserList from "./page/userLIst/UserList";
+import User from "./page/user/User";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path="/" exact element={<Home />} />
           {/* <Route path="*" element={<NoPage />} /> */}
           <Route path="/users" element={<UserList />} />
+          {/* THIS IS HOW WE UPDATE A USER*/}
+          <Route path="/user-edit/:userId" element={<User />} />
           {/*<Route path="contact" element={<Contact />} /> */}
         </Routes>
       </div>

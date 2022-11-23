@@ -1,4 +1,3 @@
-import DeleteSweepIcon from "@mui/icons-material/DeleteSweep";
 export const userInfo = [
   {
     name: "Jan",
@@ -70,96 +69,96 @@ export const UserRows = [
     email: "jon@gmail.com",
     status: "Off Line",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 2,
-    username: "John Snow",
+    username: "Mathiew JMV",
     avatar:
       "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 3,
-    username: "John Snow",
+    username: "Umwiza joella",
     avatar:
       "https://i.pinimg.com/564x/8b/c4/73/8bc473d33c4e6b8d4ddbf232b806deec.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 4,
-    username: "John Snow",
+    username: "Mugeni Keza",
     avatar:
       "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 5,
-    username: "John Snow",
+    username: "Peter joshua",
     avatar:
       "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 6,
-    username: "John Snow",
+    username: "Kamonyo Vincent",
     avatar:
       "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 7,
-    username: "John Snow",
+    username: "Mugabo ningwe",
     avatar:
       "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 8,
-    username: "John Snow",
+    username: "Tuyizere Donatie",
     avatar:
       "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 9,
-    username: "John Snow",
+    username: "Sylvain Niyonkuru",
     avatar:
       "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
     email: "jon@gmail.com",
-    status: "active",
+    status: "offline",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
   {
     id: 10,
-    username: "John Snow",
+    username: "Muheto Hodal",
     avatar:
       "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
     email: "jon@gmail.com",
-    status: "active",
+    status: "offline",
     transaction: "$120",
-    action: ["update", <DeleteSweepIcon />],
+    action: ["update"],
   },
 ];
