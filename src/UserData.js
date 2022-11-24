@@ -60,12 +60,29 @@ export const userInfo = [
     status: 60,
   },
 ];
+
+export const productInfo = [
+  {
+    name: "Jan",
+    Sales: 3000,
+  },
+  {
+    name: "Feb",
+    Sales: 1000,
+  },
+  {
+    name: "Mar",
+    Sales: 1000,
+    status: 30,
+  },
+];
+
 export const UserRows = [
   {
     id: 1,
     username: "John Snow",
     avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
     email: "jon@gmail.com",
     status: "Off Line",
     transaction: "$120",
@@ -85,7 +102,7 @@ export const UserRows = [
     id: 3,
     username: "Umwiza joella",
     avatar:
-      "https://i.pinimg.com/564x/8b/c4/73/8bc473d33c4e6b8d4ddbf232b806deec.jpg",
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
@@ -95,7 +112,7 @@ export const UserRows = [
     id: 4,
     username: "Mugeni Keza",
     avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
@@ -105,7 +122,7 @@ export const UserRows = [
     id: 5,
     username: "Peter joshua",
     avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
@@ -115,7 +132,7 @@ export const UserRows = [
     id: 6,
     username: "Kamonyo Vincent",
     avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
@@ -124,8 +141,7 @@ export const UserRows = [
   {
     id: 7,
     username: "Mugabo ningwe",
-    avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+    avatar: "https://ae03.alicdn.com/kf/H80dd08e089614ce4a857f367014970d2k.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
@@ -135,7 +151,7 @@ export const UserRows = [
     id: 8,
     username: "Tuyizere Donatie",
     avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "active",
     transaction: "$120",
@@ -145,7 +161,7 @@ export const UserRows = [
     id: 9,
     username: "Sylvain Niyonkuru",
     avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "offline",
     transaction: "$120",
@@ -155,10 +171,113 @@ export const UserRows = [
     id: 10,
     username: "Muheto Hodal",
     avatar:
-      "https://images.theconversation.com/files/122137/original/image-20160511-18171-kulas4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
     email: "jon@gmail.com",
     status: "offline",
     transaction: "$120",
+    action: ["update"],
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Kanyanga",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "Off Line",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 2,
+    name: "Apple",
+    avatar:
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 3,
+    name: "Ubwiza",
+    avatar:
+      "https://i.pinimg.com/736x/a0/66/6b/a0666b22886130e1896ab961ecf609cc.jpg",
+    stock: 123,
+    status: "active",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 4,
+    name: "Tomatoes",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "active",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 5,
+    name: "Shoes",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "active",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 6,
+    name: "Bag",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "active",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 7,
+    name: "Wine",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "active",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 8,
+    name: "Kings chair",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "active",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 9,
+    name: "Tooth paste",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "offline",
+    price: "$120",
+    action: ["update"],
+  },
+  {
+    id: 10,
+    name: "Pen",
+    avatar:
+      "https://ae01.alicdn.com/kf/Hfaefb40f1fa74cac888f5d51373dfcb04/New-Men-s-Casual-Shoes-Student-Sports-Shoes-Running-Shoes-Fashion-Mens-Sneakers-Casual-Zapatos-De.jpg_Q90.jpg_.webp",
+    stock: 123,
+    status: "offline",
+    price: "$120",
     action: ["update"],
   },
 ];

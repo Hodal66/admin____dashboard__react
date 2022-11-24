@@ -21,93 +21,100 @@ function SideBar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sideListItem  active">
-              <Link to="/">
+            <Link to="/" className="Link">
+              <li className="sideListItem  active">
                 <LineStyleIcon className="sidebarIcon" />
                 Home
-              </Link>
-            </li>
-            <li className="sideListItem ">
-              <Link to="/analytics">
+              </li>
+            </Link>
+            <Link to="/analytics" className="Link">
+              <li className="sideListItem ">
                 <TimelineIcon className="sidebarIcon" />
                 Analytics
-              </Link>
-            </li>
-            <li className="sideListItem ">
-              <Link to="/sales">
+              </li>
+            </Link>
+            <Link to="/sales" className="Link">
+              <li className="sideListItem ">
                 <TrendingUpIcon className="sidebarIcon" />
                 Sales
-              </Link>
-            </li>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sideListItem ">
-              <Link to="/users">
+            <Link to="/users" className="Link">
+              <li className="sideListItem ">
                 <ManageAccountsIcon className="sidebarIcon" />
                 User
-              </Link>
-            </li>
-            <li className="sideListItem ">
-              <Link to="/products">
+              </li>
+            </Link>
+            <Link to="/products" className="Link">
+              <li className="sideListItem ">
                 <ProductionQuantityLimitsIcon className="sidebarIcon" />
                 Products
-              </Link>
-            </li>
-            <li className="sideListItem ">
-              <Link to="/transactions">
+              </li>
+            </Link>
+            <Link to="/transactions" className="Link">
+              <li className="sideListItem ">
                 <PaidOutlinedIcon className="sidebarIcon" />
                 Transactions
-              </Link>
-            </li>
-            <li className="sideListItem ">
-              <Link to="/transactions">
+              </li>
+            </Link>
+            <Link to="/transactions" className="Link">
+              <li className="sideListItem ">
                 <BarChartOutlinedIcon className="sidebarIcon" />
                 Transactions
-              </Link>
-            </li>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Staff</h3>
           <ul className="sidebarList">
-            <li className="sideListItem ">
-              <Link to="/mail">
+            <Link to="/mail" className="Link">
+              <li className="sideListItem ">
                 <MailLockOutlinedIcon className="sidebarIcon" />
                 Mail
-              </Link>
-            </li>
-            <li className="sideListItem ">
-              <Link to="/feedback">
+              </li>
+            </Link>
+            <Link to="/feedback" className="Link">
+              <li className="sideListItem ">
                 <DynamicFeedOutlinedIcon className="sidebarIcon" />
                 Feedback
-              </Link>
-            </li>
-            <li className="sideListItem ">
-              <Link to="/messages">
+              </li>
+            </Link>
+            <Link to="/messages" className="Link">
+              <li className="sideListItem ">
                 <MarkChatUnreadOutlinedIcon className="sidebarIcon" />
                 Messages
-              </Link>
-            </li>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Setting</h3>
           <ul className="sidebarList">
-            <li className="sideListItem ">
-              <ManageHistoryOutlinedIcon className="sidebarIcon" />
-              Manage
-            </li>
-            <li className="sideListItem ">
-              <TimelineIcon className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sideListItem ">
-              <NewReleasesIcon className="sidebarIcon" />
-              Report
-            </li>
+            <Link to="/manage" className="Link">
+              <li className="sideListItem ">
+                <ManageHistoryOutlinedIcon className="sidebarIcon" />
+                Manage
+              </li>
+            </Link>
+            <Link to="/analytics" className="Link">
+              <li className="sideListItem ">
+                <TimelineIcon className="sidebarIcon" />
+                Analytics
+              </li>
+            </Link>
+
+            <Link to="/report" className="Link">
+              <li className="sideListItem ">
+                <NewReleasesIcon className="sidebarIcon" />
+                Report
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

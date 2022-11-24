@@ -1,0 +1,9 @@
+.product-list{
+    flex: 4;
+    padding:20px;
+}
+.Product--list_container{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}

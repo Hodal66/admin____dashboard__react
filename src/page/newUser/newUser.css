@@ -1,0 +1,49 @@
+.newUser{
+    flex: 4;
+    padding:20px;
+}
+.newUserTitle{
+    font-weight: 600;
+    font-size: 20px;
+}
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newUserItem{
+    width:400px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+}
+.newUserItem > input, .newUserSelect{
+    border:1px solid rgb(198, 196, 196);
+    padding:10px;
+    border-radius: 5px;
+}
+.newUserItem>label{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color:rgb(172, 169, 169);
+
+}
+.newUserGender{
+    color:rgb(133, 131, 131);
+
+}
+.newUserGender>label{
+    margin-right: 10px;
+}
+.newUserButton{
+    width:200px;
+    background-color:darkblue;
+    color:white;
+    padding:7px 10px;
+    border:none;
+    font-weight: 600;
+    border-radius:10px;
+    cursor:pointer;
+    margin-top: 30px;
+}

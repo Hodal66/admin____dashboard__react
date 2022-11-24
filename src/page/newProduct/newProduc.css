@@ -1,0 +1,35 @@
+.newProduct{
+    flex: 4;
+}
+.newProductContainer{
+    margin: 20px;
+}
+.newProduct>h2{
+    padding:20px
+}
+.productButton{
+    margin:20px 0px;
+}
+.newProductContainer>label{
+    color:gray;
+    margin-bottom: 20px;
+}
+.productUploadImage{
+    margin: 20px 0px;
+}
+.productUploadImage>input{
+    border:1px solid grey;
+    padding:10px;
+    width:200px;
+}
+.productFormLeft>input{
+    border:1px solid grey;
+    padding:10px;
+    width:200px;
+
+}
+select{
+    border:1px solid grey;
+    padding:10px;
+    width:200px;
+}
